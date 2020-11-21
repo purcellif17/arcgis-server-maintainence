@@ -33,7 +33,7 @@ try:
                                        conflict_definition="BY_OBJECT",
                                        conflict_resolution="FAVOR_TARGET_VERSION",
                                        with_post="POST",
-                                       with_delete="DELETE_VERSION",
+                                       with_delete="KEEP_VERSION",
                                        out_log=os.path.join(file_loc,'reconcile_log')
                                        )
     # Compress database and reopen to outside connections
